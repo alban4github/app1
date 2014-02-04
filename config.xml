@@ -6,7 +6,9 @@
         id          = "com.alban.app1"
         version     = "1.0.0"
         versionCode = "10" >
-
+        
+        <gap:plugin name="org.apache.cordova.vibration" />
+        
         <!-- versionCode is optional and Android only -->
 
         <preference name="phonegap-version" value="3.1.0" />
